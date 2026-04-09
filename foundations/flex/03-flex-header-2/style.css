@@ -53,22 +53,21 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 16px;
+  padding: 8px;
 }
-.left {
+.left, .right {
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  
 }
 .links {
   display: flex;
+  margin: 0;
+  padding: 0;
   gap: 16px;
 }
-.right {
-  display: flex;
-  justify-content: flex-end;
-  gap: 16px;
-  align-items: center;
-}
+
 .profile-image {
   flex-shrink: 0;
 }
